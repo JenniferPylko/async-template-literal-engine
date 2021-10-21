@@ -1,0 +1,6 @@
+${set("strings", await import_vars(`strings_${lang}`))}
+${await include("html", {
+    pageTitle: "Hello",
+    body: `${get("strings")["part1"]}${fname}${get("strings")["part2"]}`
+})}
+${log(`Here are the values of __template, __filename, and __dirname, respectively: ${__template}, ${__filename}, ${__dirname}`)}

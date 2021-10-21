@@ -1,0 +1,19 @@
+{
+  "name": "async-template-literal-engine",
+  "version": "1.0.0",
+  "description": "Express-compatible template engine using ES6 template literals",
+  "main": "template-engine.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "benzoic",
+  "license": "ISC",
+  "dependencies": {
+    "event-loop-mutex": "^1.1.0",
+    "express": "^4.17.1"
+  },
+  "bugs": {
+    "url": "https://github.com/brpylko/async-template-literal-engine/issues"
+  },
+  "homepage": "https://github.com/brpylko/async-template-literal-engine#readme"
+}

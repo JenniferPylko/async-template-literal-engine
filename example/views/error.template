@@ -1,0 +1,4 @@
+Let's throw an error!
+${(() => {
+    throw new Error("whoops :/")
+})()}

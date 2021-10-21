@@ -1,0 +1,2 @@
+${export_var("part1", "Hello, ")}
+${export_var("part2", "!")}
